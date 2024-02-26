@@ -20,6 +20,8 @@ Through this analysis, I was able to make recommendations for a strategic launch
 - Subqueries and common table expressions
 - Tableau
 
+Link to visualizations on [Tableau Public](https://public.tableau.com/views/RockbusterProject_17026765984430/moviepopularity?:language=en-US&:display_count=n&:origin=viz_share_link).
+
 ## Data
 The data used in this project was provided by Career Foundry and included data tables with information such as film inventory, customers, and payments.
 
