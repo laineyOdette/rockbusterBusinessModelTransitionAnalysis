@@ -15,7 +15,8 @@ Through this analysis, I was able to make recommendations for a strategic launch
 - Relational databases
 - SQL in PostgreSQL
 - Database querying and filtering
-- Cleaning and summarizing
+- Data dictionary creation
+- Cleaning and summarizing 
 - Joining tables
 - Subqueries and common table expressions
 - Tableau
