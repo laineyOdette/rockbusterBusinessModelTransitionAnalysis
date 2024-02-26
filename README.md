@@ -1,5 +1,5 @@
-# Rockbuster Stealth LLC - New Service Launch Analysis
-Rockbuster Stealth LLC wants to launch a new online video service. To support this venture, management is looking for some data-driven answers to inform their launch strategy.
+# Rockbuster Stealth LLC - Transition Business Model Analysis
+Rockbuster Stealth LLC wants to transition their business model to an online video service. To support this venture, management is looking for some data-driven answers to inform their launch strategy.
 
 ## Objective
 TBD
