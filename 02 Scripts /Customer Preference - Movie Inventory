@@ -1,0 +1,18 @@
+-- Return movie inventory counts by movie rating
+SELECT A.rating,
+	   COUNT(DISTINCT C.rental_id) AS rental_count
+FROM film A
+INNER JOIN inventory B ON A.film_id = B.film_id
+INNER JOIN rental C ON B.inventory_id = C.inventory_id
+GROUP BY rating
+ORDER BY rental_count DESC
+
+-- Return movie inventory counts by movie genre
+SELECT A.name AS category_name,
+	   COUNT(DISTINCT D.rental_id) AS rental_count
+FROM category A
+INNER JOIN film_category B ON A.category_id = B.category_id
+INNER JOIN inventory C ON B.film_id = C.film_id
+INNER JOIN rental D ON C.inventory_id = D.inventory_id
+GROUP BY category_name
+ORDER BY rental_count DESC
